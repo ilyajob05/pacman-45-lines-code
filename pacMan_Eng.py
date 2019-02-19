@@ -63,7 +63,7 @@ while runApp:
         pacManPovernutii = pygame.transform.rotate (pacMan, 270)
         pacY = pacY + 3
  
-    # --- logic of Ira
+    # --- logic of game
     # if pacman falls into cast coordinates +/- 50 pixels in X and then in Y
     if (pacX> privedenieX - 50) & (pacX <privedenieX + 50) & (privedenieX == 400):
         if (pacY> privedenieY - 50) & (pacY <privedenieY + 50):
